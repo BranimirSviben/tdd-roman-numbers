@@ -1,0 +1,42 @@
+HELP.md
+.gradle
+build/
+bin/
+provisioning/roles/deploy-app/files/*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+uploads/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.idea/
+#.idea/workspace.xml
+###!**.idea/runConfigurations/**
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+###.vscode/
+
+.history
+app.log
+/src/main/java/hr/
